@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <form action="" method="post">
+
+        <label for="Nombre">Nombre:
+            <input type="text" name="Nombre" id="Nombre" required>
+        </label>
+
+        <br><br>
+
+        <label for="Correo-electronico">Email:
+            <input type="email" name="Email" id="Correo-electronico" required>
+        </label>
+
+        <br><br>
+
+        <label for="Estado-civil">Estado civil:
+            <select name="Estado-civil" id="Estado-civil">
+                <option value="Soltero/a">Soltero/a</option>
+                <option value="Casado/a">Casado/a</option>
+                <option value="Viudo/a">Viudo/a</option>
+                <option value="Divorciado/a">Divorciado/a</option>
+                <option value="Separado/a">Separado/a</option>
+            </select>
+        </label>
+
+        <br><br>
+
+        <label for="promos">Acepto que se me envien promociones al email
+            <input type="checkbox" name="promos" id="promos">
+        </label>
+
+        <br><br>
+
+        <label for="comentarios">
+            <textarea name="" id="comentarios" cols="30" rows="12" required></textarea>
+        </label>
+
+        <br><br>
+
+        <input type="reset" value="Limpiar formulario">
+
+        <input type="submit" value="Enviar formulario">
+        
+    </form>
+
+</body>
+</html>
